@@ -15,7 +15,7 @@ const TaskDone = (props) => {
   };
   return (
     <div className="wrapper">
-      <HeaderTitle title="Task Pending" />
+      <HeaderTitle title="Task Done" />
       <ul className="todoList">
         {loading ? (
           <div className="spinner-border" role="status">
